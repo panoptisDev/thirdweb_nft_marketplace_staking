@@ -73,15 +73,15 @@ export default function Index() {
             fontWeight={600}
             fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
             lineHeight={'110%'}>
-            Hasilkan uang dari <br />
-            <Text as={'span'} color={'green.400'}>
-             kreativitas Anda
+            WhaleHarvest NFT Market<br />
+            <Text as={'span'} color={'purple.400'}>
+            An innovative place for works of art
             </Text>
           </Heading>
           <Text color={'gray.500'}>
-            Monetize your creativity by charging your most loyal community and reward
-            them loyalty points. Give back to your loyal community by granting
-            them access to your pre-releases and staking NFT.
+            Built for our most loyal community to reward
+            them with limited edition digital collections. Here we give back to our most devoted community members by granting
+            them access to our pre-releases and staking NFT´s.
           </Text>
           <Stack
             direction={'column'}
@@ -91,12 +91,12 @@ export default function Index() {
             position={'relative'}>
         <Stack flex={2} direction={{ md: 'row', base: 'column'}} spacing={{ base: 5, md: 5 }}>
             <Button onClick={onOpen}
-              colorScheme={'green'}
-              bg={'green.400'}
+              colorScheme={'purple'}
+              bg={'purple.400'}
               rounded={'full'}
               px={6}
               _hover={{
-                bg: 'green.500',
+                bg: 'pink.500',
               }}>
               Connect Wallet
             </Button>

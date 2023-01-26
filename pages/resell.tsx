@@ -186,7 +186,7 @@ const Resell: NextPage = () => {
             className={styles.textInput}
             type="text"
             name="price"
-            placeholder="Sale Price in BNB"
+            placeholder="Sale Price in MATIC"
           />
             </FormControl>
 

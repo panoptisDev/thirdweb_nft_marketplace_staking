@@ -290,7 +290,7 @@ const Upload = () => {
           <input
             type="text"
             name="price"
-            placeholder="Price (in BNB)"
+            placeholder="Price (in MATIC)"
             className={styles.textInput}
           />
             </FormControl>
